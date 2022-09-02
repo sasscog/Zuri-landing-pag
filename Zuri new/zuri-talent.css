@@ -13,89 +13,117 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*background-color: rgb(255, 253, 245);*/
+    background-color: rgb(255, 253, 245);
 }
 body{
+    font-family: "Graphik Web Regular"; 
     width: 100%;
     margin: auto;
     height: 100vh;
     /*background-color: rgb(255, 253, 245);*/
 }
 .navbar{
+    padding: 15px;
     position: fixed;
     background-color: rgb(255, 253, 245);
 }
 section{
-    background-color: rgb(255, 253, 245);
+    /*background-color: rgb(255, 253, 245);*/
     width: 100%;
 }
+.logo{
+    max-width: 1440px;
+}
 .a-tads{
+    justify-content: space-around;
+    /*background: blue;*/
+    box-sizing: border-box;
+    height: 40px;
+    width: 730.83px;
     margin-right: -250px;
 }
-.navbar a{
-    margin-left: 25px;
+.a-tads a{
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
 }
 .thumb{
-    margin-top: 5px;
+    background: #eba4a0;
+    padding: 10px;
+    /*margin-top: 2px;*/
     position: relative;
-    left: 50px;
-    width: 60px;
+    left: 45px;
+    width: 75px;
     border: solid 10px red;
     border-radius: 100px;
-    background-color: rgba(255, 0, 0, 0.653);
+    /*background-color: rgba(255, 0, 0, 0.653);*/
 }
 .but{
     margin-left: 20px;
     margin-right: 30px;
+    /*background-color: rgba(255, 0, 0, 0.653);*/
 }
 .enro{
-    margin-top: -2%;
+    margin-top: -2rem;
     background-color: red;
     margin-right: 30px;
     padding: 5px;
     width: 150px;
     border-radius: 20px;
 }
-.lady{
-    width: 340px;
-    /*margin-top: 130px;*/
-    /*margin-left: 20px;*/
-    position: relative;
-    top: 140px;
-    left: 60px;
-    background-color: transparent;
-    height: 55vh;
+.topper{
+    margin-top: 7rem;
 }
-.word{
+.lady{
+    position: relative;
+    width: 390px;
+    top: 10rem;
+    left: 6rem;
+    background: none;
+    height: 50vh;
+}
+.word1{
+    /*background: #eba4a0;*/
     margin-top: 80px;
     margin-right: 90px;
+    width: 20%;
 }
-.word p{
+.word1 p{
+    background: none;
     color: red;
+    font-size: 18px;
 }
-.word h1{
-    font-size: 45px;
+.word1 h1{
+    background: none;
+    font-size: 49px;
 }
 .male{
     margin-top: 130px;
-    width: 280px;
+    width: 350px;
     height: 60vh;
-    margin-right: 40px;
+    margin-right: 130px;
     background-color: transparent;
 }
 .line{
     width: 180px;
-    margin-right: -295px;
+    margin-right: -335px;
     margin-top: -2rem;
     background-color: transparent;
 }
 .und{
+    margin: auto;
+    background: none;
     text-align: center;
-    margin-top: auto;
-    width: 50%;
+    margin-top: 10px;
     margin-top: -3rem;
 }
+.und p{
+    margin: auto;
+    width: 75%;
+    font-size: 18px;
+}
 .bit{
+    background: none;
     width: 400px;
     margin: auto;
 }
@@ -117,6 +145,7 @@ section{
     right: 8rem;
 }
 .wire{
+    background: none;
     width: 70px;
     margin-left: 100px;
     margin-bottom: 50px;
@@ -126,22 +155,31 @@ section{
 }
 .ee{
     width: 32%;
-    margin-left: 160px;
+    margin-left: 110px;
 }
 .ee1{
-    width: 30%;
+    width: 45%;
+    margin-right: -60px;
 }
 .about p{
-    font-size: 18px;
+    font-size: 26px;
 }
 .about h1{
-    font-size: 20px;
+    margin-left: 6rem;
+    font-size: 30px;
 }
 .about img{
-    margin-left: 6rem;*/
+    margin-left: 3rem;
+}
+.en{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 .en1{
-    margin-top: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: rem;
 }
 .wire1{
     width: 110px;
@@ -160,9 +198,9 @@ section{
     margin-left: 20px;
 }
 .star{
-    width: 150px;
+    width: 160px;
     margin-right: 15rem;
-    height: 30vh;
+    height: 25vh;
 }
 .cards{
     width: 100%;
@@ -184,20 +222,22 @@ section{
 .full img{
     background-color: transparent;
     width: 100px;
-    margin-left: 79.3%;
+    margin-left: 83.4%;
     margin-top: -48px;
 }
 .full h1{
+    background: none;
     font-size: 60px;
     margin-top: -70px;
     margin-bottom: 20px;
 }
 .full p{
+    background: none;
     font-size: 18px;
     max-width: 40ch;
-    background-color: transparent;
 }
 .full h2{
+    background: none;
     font-size: 36px;
     max-width: 5ch;
     margin-bottom: 20px;
@@ -219,20 +259,23 @@ section{
 .full1 img{
     background-color: transparent;
     width: 100px;
-    margin-left: 79.3%;
+    margin-left: 83.4%;
     margin-top: -48px;
 }
 .full1 h1{
+    background: none;
     font-size: 60px;
     margin-top: -70px;
     margin-bottom: 20px;
 }
 .full1 p{
+    background: none;
     font-size: 18px;
     max-width: 40ch;
     background-color: transparent;
 }
 .full1 h2{
+    background: none;
     font-size: 32px;
     max-width: 9ch;
     margin-bottom: 20px;
@@ -252,20 +295,23 @@ section{
 .full2 img{
     background-color: transparent;
     width: 100px;
-    margin-left: 79.3%;
+    margin-left: 83.4%;
     margin-top: -48px;
 }
 .full2 h1{
+    background: none;
     font-size: 60px;
     margin-top: -70px;
     margin-bottom: 20px;
 }
 .full2 p{
+    background: none;
     font-size: 18px;
     max-width: 40ch;
     background-color: transparent;
 }
 .full2 h2{
+    background: none;
     font-size: 32px;
     max-width: 9ch;
     margin-bottom: 20px;
@@ -286,20 +332,23 @@ section{
 .full3 img{
     background-color: transparent;
     width: 100px;
-    margin-left: 79%;
+    margin-left: 83.4%;
     margin-top: -48px;
 }
 .full3 h1{
+    background: none;
     font-size: 60px;
     margin-top: -40px;
     margin-bottom: 20px;
 }
 .full3 p{
+    background: none;
     font-size: 18px;
     max-width: 40ch;
     background-color: transparent;
 }
 .full3 h2{
+    background: none;
     font-size: 36px;
     max-width: 9ch;
     margin-bottom: 20px;
@@ -319,20 +368,23 @@ section{
 .full4 img{
     background-color: transparent;
     width: 100px;
-    margin-left: 79%;
+    margin-left: 83.4%;
     margin-top: -48px;
 }
 .full4 h1{
+    background: none;
     font-size: 60px;
     margin-top: -40px;
     margin-bottom: 20px;
 }
 .full4 p{
+    background: none;
     font-size: 18px;
     max-width: 45ch;
     background-color: transparent;
 }
 .full4 h2{
+    background: none;
     font-size: 36px;
     max-width: 9ch;
     margin-bottom: 20px;
@@ -353,20 +405,23 @@ section{
 .full5 img{
     background-color: transparent;
     width: 100px;
-    margin-left: 79%;
+    margin-left: 83.4%;
     margin-top: -60px;
 }
 .full5 h1{
+    background: none;
     font-size: 60px;
     margin-top: -40px;
     margin-bottom: 20px;
 }
 .full5 p{
+    background: none;
     font-size: 18px;
     max-width: 45ch;
     background-color: transparent;
 }
 .full5 h2{
+    background: none;
     font-size: 36px;
     max-width: 9ch;
     margin-bottom: 20px;
@@ -381,19 +436,44 @@ section{
     margin-bottom: 5%;
 }
 .redbg{
-    background-color: rgb(253, 41, 41);
+    background: none;
+    background-color: #e7332b;
     margin-top: 50px;
 }
+.Tplus{
+    background: none;
+}
+.flixit{
+    background: none;
+}
 .wire5{
+    background: none;
     position: relative;
     top: 50px;
     left: 300px;
     width: 70px;
 }
 .word-pix{
+    background: none;
     margin-top: 20px;
 }
+.word-pix p{
+    background: none;
+    font-size: 18px;
+}
+.word-pix h1{
+    font-size: 40px;
+    background: none;
+}
+.word-pix .enl{
+    font-size: 18px;
+    margin-top: 2rem;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+}
 .bana1{
+    background: none;
     border-radius: 20px;
     width: 3px;
     padding: .5rem;
@@ -401,9 +481,11 @@ section{
     margin-top: 20px;
 }
 .hand{
+    background: none;
     width: 30px;
 }
 .pt{
+    background: none;
     border: solid 2px white;
     border-radius: 40px;
     width: 190px;
@@ -412,6 +494,7 @@ section{
     cursor: not-allowed;
 }
 .grid1{
+    background: none;
     width: 35%;
     margin-top: 60px;
     margin-left: -10px;
@@ -421,7 +504,11 @@ section{
     'pe fe';
     grid-gap: 10px;
 }
+.te, .me, .pe, .fe, .pix, .dots{
+    background: none;
+}
 .dots{
+    background: none;
     margin-bottom: 50px;
     position: relative;
     right: 1.5rem;
@@ -429,16 +516,20 @@ section{
     width: 120px;
 }
 .image5{
+    background: none;
     position: relative;
     width: 650px;
 }
 .ttp{
+    background: none;
     margin-top: 50px;
 }
 .tt p{
+    background: none;
     color: red;
 }
 .tt h1{
+    background: none;
     font-size: 39px;
 }
 .sec6{
@@ -449,31 +540,37 @@ section{
     background-color: white;
     width: 80%;
     /*height: 40vh;*/
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 30px;
     box-shadow: 1px 5px 5px 2px #FFE1DC;
     margin-right: 2rem;
+    height: 43vh;
 }
 .html1{
-    width: 30px;
+    background: none;
+    width: 40px;
     margin-right: 14px;
 }
 .html2{
-    width: 38px;
+    background: none;
+    width: 48px;
     margin-right: 14px;
 }
 .ft p{
-    margin-top: 20px;
-    font-size: 12px;
+    background: none;
+    margin-top: 30px;
+    font-size: 16px;
 }
 .log{
+    background: none;
     margin-top: 20px;
 }
 .ft h5{
-    font-size: 15px;
+    background: none;
+    font-size: 20px;
 }
 .ph{
-    width: 50px;
+    width: 60px;
     margin-right: 14px;
 }
 .ph1{
@@ -484,34 +581,42 @@ section{
     background-color: white;
     width: 80%;
     /*height: 40vh;*/
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 30px;
     box-shadow: 1px 5px 5px 2px #FFE1DC;
     margin-right: 2rem;
+    height: 43vh;
 }
 .html1{
-    width: 30px;
+    background: none;
+    width: 40px;
     margin-right: 14px;
 }
 .html2{
-    width: 38px;
+    background: none;
+    width: 48px;
     margin-right: 14px;
 }
 .ft1 p{
-    margin-top: 20px;
-    font-size: 12px;
+    background: none;
+    margin-top: 30px;
+    font-size: 16px;
 }
 .log{
+    background: none;
     margin-top: 20px;
 }
 .ft1 h5{
-    font-size: 15px;
+    background: none;
+    font-size: 20px;
 }
 .ph{
-    width: 50px;
+    background: none;
+    width: 43px;
     margin-right: 14px;
 }
 .ph1{
+    background: none;
     width: 100px;
     margin-right: 14px;
 }
@@ -519,31 +624,34 @@ section{
     background-color: white;
     width: 80%;
     /*height: 40vh;*/
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 30px;
     box-shadow: 1px 5px 5px 2px #FFE1DC;
     margin-right: 2rem;
+    height: 43vh;
 }
 .html1{
-    width: 30px;
+    width: 50px;
     margin-right: 14px;
 }
 .html2{
-    width: 38px;
+    width: 58px;
     margin-right: 14px;
 }
 .ft2 p{
-    margin-top: 20px;
-    font-size: 12px;
+    background: none;
+    margin-top: 30px;
+    font-size: 16px;
 }
 .log{
     margin-top: 10px;
 }
 .ft2 h5{
-    font-size: 15px;
+    background: none;
+    font-size: 20px;
 }
 .ph{
-    width: 30px;
+    width: 50px;
     margin-right: 14px;
 }
 .ph1{
@@ -554,34 +662,42 @@ section{
     background-color: white;
     width: 80%;
     /*height: 40vh;*/
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 30px;
     box-shadow: 1px 5px 5px 2px #FFE1DC;
     margin-right: 2rem;
+    height: 43vh;
 }
 .html1{
-    width: 30px;
+    background: none;
+    width: 40px;
     margin-right: 14px;
 }
 .html2{
-    width: 38px;
+    background: none;
+    width: 48px;
     margin-right: 14px;
 }
 .ft3 p{
-    margin-top: 20px;
-    font-size: 12px;
+    background: none;
+    margin-top: 30px;
+    font-size: 16px;
 }
 .log{
+    background: none;
     margin-top: 10px;
 }
 .ft3 h5{
-    font-size: 15px;
+    background: none;
+    font-size: 20px;
 }
 .ph3{
+    background: none;
     width: 50px;
     margin-right: 14px;
 }
 .ph2{
+    background: none;
     width: 80px;
     margin-right: 14px;
 }
@@ -589,34 +705,42 @@ section{
     background-color: white;
     width: 80%;
     /*height: 40vh;*/
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 30px;
     box-shadow: 1px 5px 5px 2px #FFE1DC;
     margin-right: 2rem;
+    height: 43vh;
 }
 .html1{
-    width: 30px;
+    background: none;
+    width: 40px;
     margin-right: 14px;
 }
 .html2{
-    width: 38px;
+    background: none;
+    width: 48px;
     margin-right: 14px;
 }
 .ft4 p{
-    margin-top: 20px;
-    font-size: 12px;
+    background: none;
+    margin-top: 30px;
+    font-size: 16px;
 }
 .log{
+    background: none;
     margin-top: 10px;
 }
 .ft4 h5{
-    font-size: 15px;
+    background: none;
+    font-size: 20px;
 }
 .ph3{
+    background: none;
     width: 50px;
     margin-right: 14px;
 }
 .ph2{
+    background: none;
     width: 80px;
     margin-right: 14px;
 }
@@ -624,39 +748,46 @@ section{
     background-color: white;
     width: 80%;
     /*height: 40vh;*/
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 30px;
     box-shadow: 1px 5px 5px 2px #FFE1DC;
     margin-right: 2rem;
+    height: 43vh;
 }
 .html3{
+    background: none;
     width: 80px;
     margin-right: 14px;
 }
 .html2{
-    width: 38px;
+    background: none;
+    width: 48px;
     margin-right: 14px;
 }
 .ft5 p{
-    margin-top: 20px;
-    font-size: 12px;
+    background: none;
+    margin-top: 30px;
+    font-size: 16px;
 }
 .log{
+    background: none;
     margin-top: 10px;
 }
 .ft5 h5{
-    font-size: 15px;
+    background: none;
+    font-size: 20px;
 }
 .ph3{
     width: 50px;
     margin-right: 14px;
 }
 .ph2{
+    background: none;
     width: 80px;
     margin-right: 14px;
 }
 .ro{
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 .bur{
     margin-left: 50%;
@@ -666,7 +797,7 @@ section{
     width: 150px;
     border-radius: 20px;
     background-color: red;
-    padding: .2em;
+    padding: .4em;
     border: red;
     margin-bottom: 50px;
  }
@@ -688,57 +819,6 @@ section{
     margin-top: -20px;
     margin-bottom: 50px;
 }
-/*.accordion{
-    max-width: 100%;
-    border: solid 2px rgba(71,44,111,.43);
-    overflow: hidden;
-}
-.accordion__label,
-.accordion__content{
-    padding: 14px 20px;
-}
-.accordion__label{
-    display: block;
-    color: black;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-    transition: backround 0.1s;
-}
-.accordion__label:hover{
-    background: #fffdf5;
-}
-.accordion__label::after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translate(-50% -50%);
-    right: 20px;
-    width: 15px;
-    height: 15px;
-    background-image: url(plus.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    transition: transform 0.4s;
-}
-.accordion__content{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
-    display: none;
-    transition: max-height 1s;
-}
-.accordion__input{
-    display: none;
-}
-.accordion__input:checked ~ .accordion__content{
-    display: block;
-}
-.accordion__input:checked ~ .accordion__label::after{
-    transform:  rotate(3.142rad);
-}
-.accordion__label{
-    border-top: solid 1px #fffdf5;
-}*/
 .shrink{
     margin: auto;
     width: 75%;
@@ -756,7 +836,7 @@ section{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    max-width: 1020px;
+    max-width: 1120px;
 }
 
 .so-tab {
@@ -778,7 +858,7 @@ section{
     cursor: pointer;
     letter-spacing: 0.2em;
     /*text-transform: uppercase;*/
-    font-size: 12px;
+    font-size: 18px;
 }
 .so-tab input {
     position: absolute;
@@ -836,21 +916,29 @@ section{
 }*/
 .quest{
     margin: auto;
-    margin-left: 20rem;
+    margin-left: 19rem;
+}
+.quest p{
+    font-size: 18px;
 }
 .bi button{
-    background-color: red;
+    background-color: #e7332b;
     padding: 2px;
     border-radius: 20px;
-    border: 1px solid red;
+    border: 1px solid #e7332b;
     padding-right: 20px;
     height: 6vh;
+}
+.bi button a{
+    font-size: 16px;
+    background: none;
 }
 .bi{
     margin-top: -10px;
     margin-left: 1rem;
 }
 .bi img{
+    background: none;
     width: 30px;
     margin-left: 8px;
 }
@@ -898,12 +986,17 @@ section{
     margin-left: 20px;
 }
 .fit1{
+    background: none;
     font-size: 35px;
 }
 .first-black .fit2{
+    background: none;
     font-size: 16px;
     color: #ffffff;
     margin-top: 10px;
+}
+.first-black h6, ul, li, a, img, .wrapp{
+    background: none;
 }
 .wrapp{
     height: 5vh;
@@ -921,7 +1014,7 @@ section{
 }
 .moda1{
     position: absolute;
-    top: 300rem;
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
@@ -929,7 +1022,8 @@ section{
     align-items: center;
     justify-content: center;
     background: transparent;
-    background: /*rgba(77, 77, 77, 0.7)*/ red;
+    background: rgba(77, 77, 77, 0.7);
+    background-size: cover;
     transition: all 0.4s;
     visibility: hidden;
     opacity: 0;
@@ -966,5 +1060,70 @@ section{
 .wrapp img{
     width: 15px;
     margin-left: -1.3rem;
-    margin-top: -5px;
+    margin-top: -10px;
 }
+.wrapp{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapp a{
+    display: block;
+    text-decoration: none;
+    width: 5px;
+    /*background-color: blue;*/
+    margin-left: 10px;
+    
+}
+.moda1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    background: rgba(77, 77, 77, 0.7);
+    background-size: cover;
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+.moda1:target{
+    visibility: visible;
+    opacity: 1;
+}
+.modacontent{
+    position: relative;
+    background: #fff;
+    width: 450px;
+    max-width: 90%;
+    padding: 4em 6em;
+    border-radius: 12px;
+}
+.moda1close{
+    position: absolute;
+    top: 3rem;
+    right: 15px;
+    color: red;
+    text-decoration: none;
+    font-size: 36px;
+}
+.moda1 h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+.moda1 p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.wrapp img{
+    width: 15px;
+    margin-left: -1.3rem;
+    margin-top: -10px;
+}
+ 
